@@ -5,6 +5,7 @@ body{
     margin: 0%;
     height: 100vh;
     font-size: 18px;
+    font-family: 'Grandstander', cursive;
 }
 
 
@@ -29,8 +30,8 @@ header nav ul {
     margin-bottom: 200px;
     height: 50px;
     padding: 15px;
-
-
+    font-family: 'Grandstander', cursive;
+    font-size: xx-large;
 }
 
 header li {
@@ -71,7 +72,10 @@ text-align: center;
 }
 
 .section1{
-    margin-top: 200px;
+    margin-top: 500px;
+    display: inline;
+    color: darkcyan;
+    padding-top: 200px;
 
 }
 
@@ -81,10 +85,21 @@ text-align: center;
     margin: auto;
 }
 
-td ,th {
+td ,th, {
     border:1px solid black;
-    text-align: center;
+    text-align:center;
+    
 }
+tr:hover {background-color:#f5f5f5;}
+
+th{
+    background-color: #4c7aaf;
+    color: white;
+}
+
+
+
+
 
 
 
